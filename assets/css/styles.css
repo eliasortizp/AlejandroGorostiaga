@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-image: linear-gradient(to right, #250dc7, #28e885a0);
+    height: 96px;
+}
+
+.nav-link {
+    color: aliceblue !important;
+}
+
+
+.fixed-top {
+position: fixed; 
+font-family: 'Roboto', sans-serif !important;
+font-weight: 100;
+}
+
+
+.carousel-caption{
+background-color: rgba(0, 0, 0, 40%)
+}
+
+.actualidad {
+    text-align: center;
+    background-image: linear-gradient(to right, #250dc7, #28e885a0);
+    color: aliceblue;
+}
+
+.paginación {
+    text-align: center !important;
+
+}
+
+#footer {
+    background-image: linear-gradient(to right, #250dc7, #28e885a0);
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0rem ;
+}
