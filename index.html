@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
     <title>Escuela Alejandro Gorostiaga Orrego</title>
 </head>
 
@@ -32,7 +32,7 @@
                     <div class="collapse navbar-collapse " id="navbarNav">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -40,11 +40,11 @@
                                     Nuestra Escuela
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Nuestra Historia</a></li>
-                                    <li><a class="dropdown-item" href="#">Saludos de la Directora</a></li>
-                                    <li><a class="dropdown-item" href="#">Visión y Misión</a></li>
-                                    <li><a class="dropdown-item" href="#">Sellos educativos</a></li>
-                                    <li><a class="dropdown-item" href="#">Comunidad educativa</a></li>
+                                    <li><a class="dropdown-item" href="historia.html">Nuestra Historia</a></li>
+                                    <li><a class="dropdown-item" href="directora.html">Saludos de la Directora</a></li>
+                                    <li><a class="dropdown-item" href="misionyvision.html">Visión y Misión</a></li>
+                                    <li><a class="dropdown-item" href="sellos.html">Sellos educativos</a></li>
+                                    <li><a class="dropdown-item" href="comunidad.html">Comunidad educativa</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -53,10 +53,10 @@
                                     Alumnos
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Centro de Alumnos</a></li>
-                                    <li><a class="dropdown-item" href="#">Calendario de Evaluaciones</a></li>
-                                    <li><a class="dropdown-item" href="#">Horarios de clases</a></li>
-                                    <li><a class="dropdown-item" href="#">Extraprogramáticos</a></li>
+                                    <li><a class="dropdown-item" href="alumnos.html">Centro de Alumnos</a></li>
+                                    <li><a class="dropdown-item" href="calendario.html">Calendario de Evaluaciones</a></li>
+                                    <li><a class="dropdown-item" href="horario.html">Horarios de clases</a></li>
+                                    <li><a class="dropdown-item" href="extraprogramaticos.html">Extraprogramáticos</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -65,14 +65,14 @@
                                     Información
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">PEI</a></li>
-                                    <li><a class="dropdown-item" href="#">Reglamento Interno</a></li>
-                                    <li><a class="dropdown-item" href="#">Manual de Convivencia Escolar</a></li>
-                                    <li><a class="dropdown-item" href="#">Otros Documentos</a></li>
+                                    <li><a class="dropdown-item" href="pei.html">PEI</a></li>
+                                    <li><a class="dropdown-item" href="reglamento.html">Reglamento Interno</a></li>
+                                    <li><a class="dropdown-item" href="convivencia.html">Convivencia Escolar</a></li>
+                                    <li><a class="dropdown-item" href="documentos.html">Otros Documentos</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -138,8 +138,8 @@
             <div class="row">
                 <div class="row row-cols-1 row-cols-md-4 g-3">
                     <div class="col">
-                        <div class="card">
-                            <img src="assets/img/card 1.jpeg" class="card-img-top" alt="...">
+                        <div class="card"> 
+                            <img  src="assets/img/card 1.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Título 1</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
@@ -236,7 +236,7 @@
 
 
         </section>
-<hr>
+<hr class="linea">
         <Section id="google" class="container">
                     <iframe
                         src="https://calendar.google.com/calendar/embed?src=eliasortizpastenes%40gmail.com&ctz=America%2FSantiago"
@@ -247,16 +247,39 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
        </Section>
 
-        <footer>
-            <section id="footer" class="container-fluid p-5 text-center">
+<br>
+       
+       <section class="pie-pagina">
+        <footer class="container-fluid pie-pagina">
+            <div class="row">
+                <div class="col-3">
+                    <div><a href="#">
+                        <img src="assets/img/Logo.png" class="rounded float-end w-40" alt="...">
+                    </a> <br>
+                    </div>  
+                </div>
+                <div class="col-3">
                     <p>
-                        Calle Alejandro Gorostiaga 39 - Nueva Imperial, Chile | Teléfono 45 - 261 1596
-                            294 1440 | escuelaalejandrogorostiaga@educacionpublica.cl <br>
-                            Diseñado por <strong>Elías Ortiz Pastenes.</strong>
-                    </p> 
-                          
-            </section>
+                        Una comunidad en la cual existen un compromiso profundo de todo el personal que labora en la
+                        institutción, con la educación y el desarrollo integral de los estudiantes, con un anhelo en
+                        común, a cual preservación de los valores.
+                    </p>
+                </div>
+
+                <div class="col-5">
+                    <h4>Contacto</h4>
+                    <p>Calle Alejandro Gorostiaga 39 - Nueva Imperial, Chile</p>
+                    <p> 45 - 261 1596 / 294 1440</p>
+                    <a href="escuelaalejandrogorostiaga@educacionpublica.cl">escuelaalejandrogorostiaga@educacionpublica.cl</A>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <P class="elias">Diseñado por Elias Ortiz Pastenes.</P>
+            </div>
         </footer>
+    </section>
+
 
     </header>
 
@@ -270,6 +293,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-</body>
+ </body>
 
 </html>
