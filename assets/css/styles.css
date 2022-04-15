@@ -34,11 +34,16 @@ background-color: rgba(0, 0, 0, 40%)
     text-align: center;
     background-image: linear-gradient(to right, #250dc7, #28e885a0);
     color: aliceblue;
+    box-shadow: 7px 7px 10px rgba(223, 223, 226, 88);
 }
 
+.card {
+    box-shadow: 3px 3px 5px rgba(223, 223, 226, 88);
+}
 #titulo {
     text-align: center;
     color: #28e885a0;
+    font-weight: 500;
 }
 
 .pdf{
@@ -50,6 +55,9 @@ background-color: rgba(0, 0, 0, 40%)
     background-color: #250dc7;
 }
 
+.calendario {
+    box-shadow: 3px 3px rgba(223, 223, 226, 88);
+}
 .paginación {
     text-align: center !important;
 }
@@ -59,7 +67,7 @@ background-color: rgba(0, 0, 0, 40%)
     color: aliceblue;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 0rem ;
-}
+    }
 
 .formulario {
     width: 500;
@@ -68,6 +76,7 @@ background-color: rgba(0, 0, 0, 40%)
     background-image: linear-gradient(to right, #250dc7, #28e885a0);
     color: aliceblue;
     margin: 0px;
+    top: 203px;
 }
 
 footer {
